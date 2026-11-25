@@ -1,6 +1,8 @@
 # ProNoobs Dota
 
-A tiny, dependency-free landing page. It is a single static HTML file, so Nginx can serve it directly without Node.js or a build step.
+A React landing page served as static files. The page uses React, Framer Motion, and Lucide React from browser ESM CDNs, so it does not need a Node.js build step on the VPS. Keep `index.html`, `index.js`, and `styles.css` together in the document root, along with the `assets/` directory. The HTML also includes a static fallback so the page remains readable before JavaScript loads.
+
+The theme colors, typography, and glass styles are CSS custom properties at the top of `styles.css`.
 
 ## Deploy on an Ubuntu Droplet
 
