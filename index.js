@@ -43,7 +43,7 @@ function App() {
         h("div", { className: "tournament-copy" },
           h(motion.div, { className: "tournament-label", ...enter(.05) }, h(Trophy, { size: 17, strokeWidth: 1.7, "aria-hidden": true }), " DOTA 2 · COMMUNITY TOURNAMENT"),
           h(motion.h2, { id: "tournament-title", ...enter(.13) }, "Take your place", h("br"), h("em", null, "in the bracket.")),
-          h(motion.p, { ...enter(.2) }, "Bring your team together and register through the ProNoobs Dota Discord. Event details and match updates are shared there."),
+          h(motion.p, { ...enter(.2) }, "Got a full five, or still recruiting? Start your team in Discord with the players you have, register, and fill the rest in later."),
           h(motion.a, { className: "button button-tournament", href: "https://discord.gg/DKMRnJsqV", target: "_blank", rel: "noreferrer", ...enter(.27) }, "Register your team", h(ArrowUpRight, { size: 17, strokeWidth: 1.8, "aria-hidden": true }))),
       h("section", { className: "closing", "aria-labelledby": "closing-title" },
         h("div", { className: "closing-copy" }, h("p", { className: "closing-eyebrow" }, "GG, WELL PLAYED."), h("h2", { id: "closing-title" }, "See you in the lane."), h("p", { className: "closing-caption" }, "Your next match starts with the ProNoobs community.")),
